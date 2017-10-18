@@ -1,0 +1,38 @@
+:t foldl
+foldl :: (a -> b -> a) -> a -> [b] -> a
+
+:t map
+map :: (a -> b) -> [a] -> [b]
+
+:t filter
+filter :: (a -> Bool) -> [a] -> [a]
+
+:t length
+length :: [a] -> Int
+
+:t reverse
+reverse :: [a] -> [a]
+
+:t mod
+mod :: Integral a => a -> a -> a
+
+:t succ
+succ :: Enum a => a -> a
+
+:t pred
+pred :: Enum a => a -> a
+
+:t toEnum
+toEnum :: Enum a => Int -> a
+
+:t fromEnum
+fromEnum :: Enum a => a -> Int
+
+:t toUpper
+toUpper :: Char -> Char
+
+:t elem
+elem :: Eq a => a -> [a] -> Bool
+
+:t even
+even :: Integral a => a -> Bool
